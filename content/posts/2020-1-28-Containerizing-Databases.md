@@ -8,8 +8,7 @@ tags: ["docker"]
 
 I recently made a breakthrough by finally getting a handle on containerizing databases with Docker. If you don't already know, Docker is software that allows you to run software in isolated, virutal environments that contain all the necessary dependencies that said software needs to run. Therefore, Docker can considerably simplify both setting up development environments, and deploying software to production.
 
-<img src="https://zdnet2.cbsistatic.com/hub/i/r/2016/12/14/411ea5c5-dae7-4756-8cd3-d506a0675333/resize/770xauto/b90dbe53b50ee955f5b322262444bcea/docker-whale-1.jpg" style="width:450px;height:450px;" alt="docker-whale">
-
+![docker-whale](https://zdnet2.cbsistatic.com/hub/i/r/2016/12/14/411ea5c5-dae7-4756-8cd3-d506a0675333/resize/770xauto/b90dbe53b50ee955f5b322262444bcea/docker-whale-1.jpg)
 *I was making a similar face when I got this all worked out*
 
 However, I won't get into a whole lot of technical details about Docker. For that, I've published a gist that you can read [here](https://gist.github.com/D-Bits/275a7ce6666590717da619c43f11d8df). Instead, I want to talk about how containerizing databases can be useful, as well as some of the challenges I encountered in my own learning process regarding the topic.
