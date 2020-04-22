@@ -2,7 +2,7 @@
 title: Projects
 ---
 
-A collection of some of the projects that I have worked on. A more complete portfolio of my work can be found on my [GitHub](https://github.com/D-Bits).
+In addition to this website, here is a collection of some of the projects that I have worked on. A more complete portfolio of my work can be found on my [GitHub](https://github.com/D-Bits).
 
 
 ## [COVID-19 Tracker](https://github.com/D-Bits/COVID-19-Tracker)
