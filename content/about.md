@@ -6,7 +6,7 @@ title: About Dana
 
 Hello and welcome to my website! My name is Dana Lockwood, and I am a programmer and avid technology enthusiast. My primary interest is in database development and managment. I have a background in multiple different languages and technologies, such as SQL, Python, C#/.NET Core, and [more](/skills).
 
-The GitHub repo for this website can be found [here](https://github.com/D-Bits/d-bits.github.io). 
+The GitHub repo for this website can be found [here](https://github.com/D-Bits/Danabases-Blog). 
 
 ![profile-pic](/assets/me-profile.jpg)
 
