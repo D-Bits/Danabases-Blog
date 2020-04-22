@@ -19,3 +19,8 @@ Here is a collection of some of the projects that I have worked on. A more compl
 ![system-central](/assets/danabases.jpg)
 
 *Built with [Hugo](https://gohugo.io/). Deployed to, and hosted, with Netlify.*
+
+## [Chapman](https://github.com/D-Bits/Chapman)
+![system-central](/assets/chapman.jpg)
+
+*An interactive, CLI program for performing ETL operations with a variety of sources. Built with Python, and named in honor of Graham Chapman.*
