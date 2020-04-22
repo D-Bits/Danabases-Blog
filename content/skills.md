@@ -12,8 +12,6 @@ title: Skills
 - Flask
 - Pandas
 - Django
-- C#
-- ASP.NET Core
 - HTML 5
 - CSS 3
 - Bootstrap 4
@@ -23,6 +21,8 @@ title: Skills
 
 - T-SQL
 - Docker
+- C#
+- ASP.NET Core
 - Heroku
 - JavaScript
 
