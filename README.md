@@ -1,2 +1,2 @@
-# D-Bits.github.io
-My Website/Blog
+# hugo-blog
+My Website/blog

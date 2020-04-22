@@ -1,0 +1,23 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Danabases"
+paginate = 4
+
+theme = "hugo-notepadium"
+copyright = "©2020 Dana Lockwood."
+
+[params.nav]
+showCategories = false       # /categories/
+showTags = true             # /tags/
+
+# custom navigation items
+
+# Nav for about page
+[[params.nav.custom]]
+title = "About"
+url = "/about"
+
+# Nav for skills page
+[[params.nav.custom]]
+title = "Skills"
+url = "/skills"
