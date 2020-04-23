@@ -80,7 +80,7 @@ I will not show the template code in this post, but you can find it [here](https
 ## Testing and Quality Assurance
 
 Before we deploying to production, we should write some unit tests to help ensure the functionality of our code base. A good place to start, would be to test that all of our routes return a 200 status code response.
-Using the `unittest` module, that is built into Python's standard library, we would create unit tests to ensure the route that looks like this:
+Using the `unittest` module, that is built into the Python standard library, we would create unit tests to ensure the route that looks like this:
 
 ```python
 from unittest import TestCase
@@ -106,9 +106,9 @@ class RoutesTests(TestCase):
 
 ## Final Thoughts and Going Forward
 
-What I have outlined here is certainly not the full extent of the work that I have put into this project thus far, and there are other features I have on the road map, as well. To view the entire code base for the project, please refer to the GitHub [repo](https://github.com/D-Bits/COVID-19-Tracker) for it. In the near future, I would definitely like to do additional analysis, and using data from some of the API's other endpoints. Furthermore, I also hope to add functionality that allows the user to download the data, and save it to their device(s). 
+What I have outlined here is certainly not the full extent of the work that I have put into this project thus far, and there are other features I have on the road map, as well. To view the entire code base for the project, please refer to the GitHub [repo](https://github.com/D-Bits/COVID-19-Tracker) for it. In the near future, I would definitely like to do additional analysis, and using data from some of the other endpoints that the API provides. Furthermore, I also hope to add functionality that allows the user to download the data, and save it to their device(s). 
 
-So far, I have found this to be a very rewarding project to work on. At a minimum, it has definitely helped improve my skills with both Flask and Pandas. This is actually the first Flask project that I've deployed to a production environment of some kind. While I did not go into the details of deployment in this article, I hope to go over that in a future post. Until then, there's always more work to be done.
+So far, I have found this to be a very rewarding project to work on. At a minimum, it has definitely helped improve my skills with both Flask and Pandas. This is actually the first Flask project that I have deployed to a production environment of some kind. While I did not go into the details of deployment in this article, I hope to go over that in a future post. Until then, there is always more work to be done.
 
 Sincerely,
 
