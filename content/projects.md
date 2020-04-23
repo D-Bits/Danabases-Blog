@@ -13,7 +13,7 @@ Here is a collection of some of the projects that I have worked on. A more compl
 ## [System Central](https://github.com/D-Bits/System-Central)
 ![system-central](/assets/system-central.jpg)
 
-*A CLI tool for executing various system tasks, written in Python.*
+*A CLI tool for executing various system tasks, written in Python. A [C# implementation]() can be found here*
 
 ## [Chapman](https://github.com/D-Bits/Chapman)
 ![system-central](/assets/chapman.jpg)
@@ -23,4 +23,4 @@ Here is a collection of some of the projects that I have worked on. A more compl
 ## [This Website](https://github.com/D-Bits/Danabases-Blog)
 ![system-central](/assets/danabases.jpg)
 
-*Built with [Hugo](https://gohugo.io/). Deployed to, and hosted, with Netlify.*
+*Built with [Hugo](https://gohugo.io/). Deployed to, and hosted with, Netlify.*
