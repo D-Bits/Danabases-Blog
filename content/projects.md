@@ -13,7 +13,7 @@ Here is a collection of some of the projects that I have worked on. A more compl
 ## [System Central](https://github.com/D-Bits/System-Central)
 ![system-central](/assets/system-central.jpg)
 
-*A CLI tool for executing various system tasks, written in Python. A [C# implementation]() can be found here*
+*A CLI tool for executing various system tasks, written in Python. A [C# implementation](https://github.com/D-Bits/SysCentral) can be found here*
 
 ## [Chapman](https://github.com/D-Bits/Chapman)
 ![system-central](/assets/chapman.jpg)
