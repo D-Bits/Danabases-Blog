@@ -6,7 +6,7 @@ updated: February 13th, 2020
 tags: ["python", "json", "sql"]
 ---
 
-This post follows up on my earlier post about [storing json data in Postgres](https://d-bits.github.io/Postgres-Json/). In this article, I will be going over how to integrate the same `JSONB` data I used in that post with a Django web application.
+This post follows up on my earlier post about [storing json data in Postgres](https://danabases.net/posts/2020-1-22-postgres-json/). In this article, I will be going over how to integrate the same `JSONB` data I used in that post with a Django web application.
 
 ## Modeling the Data
 
