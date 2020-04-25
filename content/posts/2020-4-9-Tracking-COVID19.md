@@ -75,7 +75,37 @@ def index():
         return render_template('index.html', data=df_dict, total=total)
 ```
 
-I will not show the template code in this post, but you can find it [here](https://github.com/D-Bits/COVID-19-Tracker/blob/master/templates/index.html)
+We would iterate over those values in an HTML table with the following code:
+
+```jinja2
+<table>
+    <thead>
+        <tr>
+            <th class="header-row">Country</th>
+            <th class="header-row">New Confirmed</th>
+            <th class="header-row">Total Confirmed</th>
+            <th class="header-row">New Deaths</th>
+            <th class="header-row">Total Deaths</th>
+            <th class="header-row">New Recovered</th>
+            <th class="header-row">Total Recovered</th>
+        </tr>  
+    </thead>
+    {% for nation in data %}
+    <!--Table for summary data-->
+    <tbody>
+        <tr>
+            <td><a href="{{ url_for('country_cases', country=nation.Country)}}">{{nation.Country}}</a></td>
+            <td>{{nation.NewConfirmed}}</td>
+            <td>{{nation.TotalConfirmed}}</td>
+            <td>{{nation.NewDeaths}}</td>
+            <td>{{nation.TotalDeaths}}</td>
+            <td>{{nation.NewRecovered}}</td>
+            <td>{{nation.TotalRecovered}}</td>
+        </tr>
+    </tbody>
+    {% endfor %}
+</table>   
+```
 
 ## Testing and Quality Assurance
 
