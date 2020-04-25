@@ -52,7 +52,22 @@ class IndexView(ListView):
 
 ## Templating
 
-Templating `JSONB` data in Django works very much like templating non-JSON data, which I apparently cannot show the code for here, because Jekyll (which this blog uses) seems to confuse the Django template language for its own templating language. To see the template code, check [here](https://github.com/D-Bits/Django-JSON/blob/master/djangojson/books/templates/books/index.html). 
+Templating `JSONB` data in Django works very much like templating non-JSON data. If you have worked with Django templates (or similar templating languages) in the past, this will look quite familiar:
+
+```html
+<div class="container">
+
+    {% for book in books %}
+        <h3><strong>Title: </strong>{{book.title}}</h3>
+        <p><strong>Author(s): </strong>{{book.properties.authors}}</p>
+        <p><strong>ISBN: </strong>{{book.properties.ISBN}}</p>
+        <p><strong>Price: </strong>${{book.properties.price}}</p>
+        <p><strong>Condition: </strong>{{book.properties.condition}}</p>
+        <p><strong>Hardcover?: </strong>{{book.properties.hardcover}}</p>
+    {% endfor %}
+
+</div>
+```
 
 ## Final Thoughts
 
