@@ -93,7 +93,7 @@ Note: You should always pass in `method='multi'`, other Pandas will automaticall
 
 ## Final Thoughts
 
-Bear in mind, that we are just barely scratching the surface of what one can do with Pandas here. Pandas is an incredibly robust and versatile library, that is adaptable to a variety of situations. If you want to learn more about Pandas, please refer to their [documentation](https://pandas.pydata.org/pandas-docs/stable/index.html).
+Remember that we are just barely scratching the surface of what one can do with Pandas here. Pandas is an incredibly robust and versatile library, that is adaptable to a variety of situations. If you want to learn more about Pandas, please refer to their [documentation](https://pandas.pydata.org/pandas-docs/stable/index.html).
 
 Sincerely,
 
