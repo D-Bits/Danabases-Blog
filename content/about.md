@@ -8,7 +8,7 @@ Hello and welcome to my website! My name is Dana Lockwood, and I am a programmer
 
 The GitHub repo for this website can be found [here](https://github.com/D-Bits/Danabases-Blog). 
 
-![profile-pic](/assets/me-profile.jpg)
+![profile-pic](/assets/pics/me-profile.jpg)
 
 
 I am an enthusiastic, outgoing person who is also delighted to share ideas and collaborate with creative people to produce great things. Some of my other personal interests and hobbies include a deep interest in theoretical physics and cosmology, international studies, traveling, craft brewing, and much more! For more information on my work, or to contact me, please see the links listed below.
