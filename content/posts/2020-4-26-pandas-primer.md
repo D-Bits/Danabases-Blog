@@ -10,7 +10,7 @@ Today, we will be going over what Pandas DataFrames are, as well as how to use t
 
 ## What Are DataFrames?
 
-A `DataFrame` is a type of data structure. That is, a way of storing values in memory. They are designed to store and organize potentially large volumes of, usually in a rows-and-columns format. It is essentially a two-dimensional array to store values in. While there are multiple technologies that utilize DataFrames, in this post, we will be using the `DataFrame` class from Pandas. If you are not already aware, Pandas is a Python library, built on NumPy, that is designed to simplify data manipulation and analysis. To install it, create/activate a `venv` and run `pip install pandas` . To use Pandas, we use the following universal aliasing for our import:
+A `DataFrame` is a type of data structure. That is, a way of storing values in memory. They are designed to store and organize potentially large volumes of data in a rows-and-columns format. It is essentially a two-dimensional array to store values in. While there are multiple technologies that utilize DataFrames, in this post, we will be using the DataFrames from Pandas. If you are not already aware, Pandas is a Python library, built on NumPy, that is designed to simplify data manipulation and analysis. To install it, create/activate a `venv` and run `pip install pandas`. To use Pandas, we use the following universal aliasing for our import:
 ```python
 import pandas as pd
 ```
@@ -24,7 +24,7 @@ For the purposes of demonstration, I will be using a CSV file containing 1,000 r
 # DataFrames are often stored in a variable called "df"
 df = pd.read_csv('people-data.csv')
 ```
-This will load all the values from that CSV file into the `DataFrrame`, and would look like this when printed to the standard output:
+This will load all the values from that CSV file into the `DataFrame`, and will look like this when printed to the standard output:
 
 ![df](/assets/pics/df_print.jpg)
 
