@@ -6,13 +6,13 @@ updated: February 27, 2020
 tags: ["automation"] 
 ---
 
-Let us be real, for a moment: keeping software up-to-date is critically important, but also often quite a pain. The more software you have installed on your PC, the more true this is. Fortunately, it doesn't have to be, even on Windows. All you need is: a package manager, a little Python, the Windows Task Scheduler, and a batch file.
+Let us be real, for a moment: keeping software up-to-date is critically important, but also often quite a pain. The more software you have installed on your PC, the more true this is. Fortunately, it does not have to be, even on Windows. All you need is: a package manager, a little Python, the Windows Task Scheduler, and a batch file.
 
 In a [previous post](https://danabases.net/posts/2020-2-15-postgres-chocolatey/), I wrote about how to easily install and update a Postgres instance on Windows. This post will ultimately build on that, as it uses the same package manager, Chocolatey. There is, of course, a little bit of setup to be done to automating this, but nothing too labor-intensive, and definitely worth the amount of time it will save.
 
 ## Chocolatey
 
-First, we need to ensure Chocolately is installed, and working properly. Open a PowerShell terminal, and run the following command:
+First, we need to ensure Chocolatey is installed, and working properly. Open a PowerShell terminal, and run the following command:
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
