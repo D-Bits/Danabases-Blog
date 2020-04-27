@@ -135,7 +135,7 @@ WHERE cast
 Storing, and querying JSON data in a traditional, relational database like Postgres, is
 not only possible, but also practical. So, the next time you find yourself in one
 of those niche use-cases where you actually need to persistently store data in JSON,
-don't simply asume that you need to use a NoSQL DBMS, like MongoDB. At least look 
+don't simply assume that you need to use a NoSQL DBMS, like MongoDB. At least look 
 into using Postgres, and its `JSONB` data type. I have also authored a [gist](https://gist.github.com/D-Bits/d0f5ef2f79839d6e814a235e14e9e418) 
 on the topic.
 
