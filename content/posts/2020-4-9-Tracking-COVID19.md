@@ -6,7 +6,7 @@ updated: April 9th, 2020
 tags: ["python"] 
 ---
 
-In light of the recent pandemic (and partially as a result of being laid off recently, due to said pandemic), I recently took it upon myself to build a reporting service of sorts for the COVID-19 pandemic. After all, gotta have something to work on during quarantine. The project consisted of the following core steps: 1) Find a REST API with comprehenisve and reliable data, 2) Clean the data, and calculate aggregates, 3) Render the data into HTML templates, 4) Deploy the client to a production environment.
+In light of the recent pandemic (and partially as a result of being laid off recently, due to said pandemic), I recently took it upon myself to build a reporting service of sorts for the COVID-19 pandemic. After all, got to have something to work on during quarantine. The project consisted of the following core steps: 1) Find a REST API with comprehensive and reliable data, 2) Clean the data, and calculate aggregates, 3) Render the data into HTML templates, 4) Deploy the client to a production environment.
 
 Following a little research, I found out that Postman had built an [REST API](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest), in collaboration with John Hopkins, to track developments with the pandemic. All the data that I worked with for this project comes from that API.
 
@@ -24,7 +24,7 @@ summary = get("https://api.covid19api.com/summary")
 summary_json = summary.json()
 ```
 
-Now that we have extracted our data, we can load it into a Pandas `DataFrame`. In this case, I will just using the data stored int the `countrires` variable. We would load that into a `DataFrame` like so:
+Now that we have extracted our data, we can load it into a Pandas `DataFrame`. In this case, I will just using the data stored in the `countrires` variable. We would load that into a `DataFrame` like so:
 
 ```python
 # Universally used aliasing convention for importing Pandas

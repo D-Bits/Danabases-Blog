@@ -14,7 +14,7 @@ dive into the nitty gritty details.
 ### Purpose
 
 First, you might ask: why would one need to do this? Ultimately, the potential
-to automate all sorts of things by envoking external commands inside a program
+to automate all sorts of things by invoking external commands inside a program
 are nearly limitless. I have already been relying heavily on `subprocess.run()`
 in Python's standard library to do exactly that for a while now. Yet, as much
 as I have been utilizing that, I recently started to explore if I could implement
@@ -85,8 +85,8 @@ You can view the rest of the source code for this project
 
 While invoking shell commands in C# with `Process.Start()` has not been quite
 as intuitive as Python's `subprocess.run()`, and it was rather difficult to
-find accurate documentation, being able to now do so effictively will be very
-helpfully in reimplementing certain past projects in C#.  In addtion to that,
+find accurate documentation, being able to now do so effectively will be very
+helpfully in reimplementing certain past projects in C#.  In addition to that,
 I will also look into what other things I can automate with `Process.Start()`.
 
 <br>

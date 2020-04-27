@@ -49,4 +49,4 @@ Then, go to the "Actions" tab, and click new. Keep "Start Program" as the action
 
 ## Final Thoughts
 
-Even though this specific case focused entirely on automating Windows updates, a similiar methodology could easily be applied to Unix-like systems via Cron, and some minor code tweaks. Either way, automating software updates will surely relieve a lot of headache, even for people who aren't total geeks. I know it sure will for me.
+Even though this specific case focused entirely on automating Windows updates, a similar methodology could easily be applied to Unix-like systems via Cron, and some minor code tweaks. Either way, automating software updates will surely relieve a lot of headache, even for people who aren't total geeks. I know it sure will for me.

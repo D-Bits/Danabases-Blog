@@ -19,7 +19,7 @@ these are: performance, simplicity, versatility, and cross-platform support.
 With that in mind, I would like to break down what each of these criteria 
 entail.   
 
-### Performance
+## Performance
 
 Performance generally refers to how efficiently a language and its runtime
 utilize system resources such as RAM. Even though we generally do not need 
@@ -35,7 +35,7 @@ that at least some languages try to strike a balance between performance and
 abstraction/simplicity. I would argue that languages like C# and Golang do
 an at least decent job of this.
 
-### Simplicity
+## Simplicity
 
 In addition to performance, we also largely want to minimize the barrier to 
 entry for the language we use. That is, we want to make it easier to learn
@@ -49,7 +49,7 @@ in a given language is often an important factor in people's decision to use
 said language. Syntax can have a major effect on how easy or difficult it is
 to learn and use a programming language.
 
-### Versatility
+## Versatility
 
 Another major factor in the popularity of programming languages is the variety
 of different use-cases that they can be applied to. Indeed, many languages
@@ -58,7 +58,7 @@ being easily portable to a variety of different contexts, while others, like
 PHP and Ruby, have experienced a significant drop in popularity largely on
 account of not being ideal for use outside of a specific context.
 
-### Cross-Platform Support
+## Cross-Platform Support
 
 This brings me to my final priority for a programming language: cross-platform
 support, which ties into the previous point about versatility. It is also not
@@ -71,7 +71,7 @@ language that is not bound to a specific operating system, or domain. Indeed,
 many programmers specifically seek out platform-independent languages, and 
 they are not wrong to do so.
 
-### Conclusions
+## Conclusions
 
 I am sure that there are any number of people who at least partially disagree
 with some of my assessments in this post. This is completely understandable.

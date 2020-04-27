@@ -18,11 +18,11 @@ Then, copy and paste the following into your terminal:
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
-This will install Chocolatey on your system. Once its done, run the command `choco -v`. If it outputs a version number (0.10.15, at the time of this writing), then we know that Chocolatey was installed sucessfully. 
+This will install Chocolatey on your system. Once its done, run the command `choco -v`. If it outputs a version number (0.10.15, at the time of this writing), then we know that Chocolatey was installed successfully. 
 
 ## Installing Postgres
 
-With that sorted out, we can now quickly install Postgres by running `choco install postgresql`. Enter `y` when prompted to. You will see that it sets a default (random hex value) password for the `postgres` user. **IMPORTANT:** Quickly copy and paste this default password from your terminal into a safe place, like a password manager, as you will need it to connect to the server. I highly recommend changing it to something more secure at your earliest convience with an `ALTER USER` query. The installation will also default to listening on port 5432. This is installation should also include the "stack builder" tool for adding extensions. Once that's done, you should be more-or-less ready to go!
+With that sorted out, we can now quickly install Postgres by running `choco install postgresql`. Enter `y` when prompted to. You will see that it sets a default (random hex value) password for the `postgres` user. **IMPORTANT:** Quickly copy and paste this default password from your terminal into a safe place, like a password manager, as you will need it to connect to the server. I highly recommend changing it to something more secure at your earliest convenience with an `ALTER USER` query. The installation will also default to listening on port 5432. This is installation should also include the "stack builder" tool for adding extensions. Once that's done, you should be more-or-less ready to go!
 
 ## Additional Configurations
 

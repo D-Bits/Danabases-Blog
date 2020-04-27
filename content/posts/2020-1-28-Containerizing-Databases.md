@@ -6,7 +6,7 @@ updated: January 29, 2020
 tags: ["docker"] 
 ---
 
-I recently made a breakthrough by finally getting a handle on containerizing databases with Docker. If you don't already know, Docker is software that allows you to run software in isolated, virutal environments that contain all the necessary dependencies that said software needs to run. Therefore, Docker can considerably simplify both setting up development environments, and deploying software to production.
+I recently made a breakthrough by finally getting a handle on containerizing databases with Docker. If you don't already know, Docker is software that allows you to run software in isolated, virtual environments that contain all the necessary dependencies that said software needs to run. Therefore, Docker can considerably simplify both setting up development environments, and deploying software to production.
 
 ![docker-whale](https://zdnet2.cbsistatic.com/hub/i/r/2016/12/14/411ea5c5-dae7-4756-8cd3-d506a0675333/resize/770xauto/b90dbe53b50ee955f5b322262444bcea/docker-whale-1.jpg)
 *I was making a similar face when I got this all worked out*
@@ -24,13 +24,13 @@ My main challenge by far, was simply trying to get data stored in my containeriz
 
 ## Going Forward
 
-Now that I can easily setup containerize databases, and persist the data their holding, I can easily setup entire development environments without spending a bunch of time manually installing and configuring a nuch of dependencies. As a result, I plan on moving fully ahead with plans to stockpile various pre-configured Dockerfiles and `docker-compose` files for various different development environments. The repo for this project can be found [here](https://github.com/D-Bits/Docker-Configs).
+Now that I can easily setup containerize databases, and persist the data their holding, I can easily setup entire development environments without spending a bunch of time manually installing and configuring a buch of dependencies. As a result, I plan on moving fully ahead with plans to stockpile various pre-configured Dockerfiles and `docker-compose` files for various different development environments. The repo for this project can be found [here](https://github.com/D-Bits/Docker-Configs).
 
 ## Summary
 
-In spite of the struggles I faced, I am very glad that I have managed to successfully containerize databases, as no being able to has pretty much been the main barrier that has been preventing me from almost exclusively relying on Docker to setup development evironments going forward. With that more-or-less behind me, I hope that configuring deve environments going forward will be a whole lot more simple for me. 
+In spite of the struggles I faced, I am very glad that I have managed to successfully containerize databases, as no being able to has pretty much been the main barrier that has been preventing me from almost exclusively relying on Docker to setup development environments going forward. With that more-or-less behind me, I hope that configuring dev environments going forward will be a whole lot more simple for me. 
 
-Again, if you want the technical details of how I figured this out, I refering you to this [gist](https://gist.github.com/D-Bits/275a7ce6666590717da619c43f11d8df).
+Again, if you want the technical details of how I figured this out, I referring you to this [gist](https://gist.github.com/D-Bits/275a7ce6666590717da619c43f11d8df).
 
 <br>
 

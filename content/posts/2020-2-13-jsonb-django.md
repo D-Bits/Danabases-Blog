@@ -71,4 +71,4 @@ Templating `JSONB` data in Django works very much like templating non-JSON data.
 
 ## Final Thoughts
 
-This would certainly be considerably more difficult to implement without Django's built-in support for Postgres' `JSONB` type. However, given that Django does have built in support for this, it was about as easy as working with SQL data. Going forward, I would like to implement more complete CRUD functionality. Stay tunned. 
+This would certainly be considerably more difficult to implement without Django's built-in support for Postgres' `JSONB` type. However, given that Django does have built in support for this, it was about as easy as working with SQL data. Going forward, I would like to implement more complete CRUD functionality. Stay tuned. 

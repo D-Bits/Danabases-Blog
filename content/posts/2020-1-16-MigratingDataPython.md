@@ -11,7 +11,7 @@ ETL programs in Python. Among the functionality that I included was extracting
 data from a local Postgres database, and migrating to a Postgres database in 
 the cloud.
 
-### The Reasoning
+## The Reasoning
 
 While I'm aware that platforms-as-a service (PaaS) like AWS, and 
 Azure provide their own services for this. Nevertheless, I opted to implement 
@@ -19,16 +19,16 @@ my own solution for data migration(s). I decided on this course of action for
 a couple reasons: 1) I saw it as a valuable learning experience for, and 2)
 I also found it be a practical solution as well. 
 
-### The Goal
+## The Goal
 
 The ultimate goal of this was to create a simple, interactive way of extracting
 data from individual tables on my local instance of PostgreSQL, and loading
 them into an AWS RDS Postgres instance. Ideally, I wanted to implement a 
 solution that provided the best possible balance between simplicity and 
-performance. Utimately, the packages that I relied on the most for this task
+performance. Ultimately, the packages that I relied on the most for this task
 were *psycopg2*, and *Pandas*. 
 
-### Implementation
+## Implementation
 
 The function I wrote to perform this task consisted of the following key steps:
 
@@ -106,7 +106,7 @@ Here is the exact implementation I used:
 
 <br>
 
-### Conclusions
+## Conclusions
 
 This particular methodology has worked well enough that I am now considering 
 implementing in other functions in the same project where I am currently 
