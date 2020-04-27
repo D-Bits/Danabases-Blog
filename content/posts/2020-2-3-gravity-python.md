@@ -73,6 +73,6 @@ Where the *mass* parameter is the mass of the black hole in solar masses, not ki
 
 ## Summary 
 
-While the math we are doing here is ultimately pretty simple, as far as physics goes,it nonetheless shows how one can easily do at least centain physics equations with only a little bit of code. Hope you enjoyed it, and don't use it to cheat on your physics homework haha. 
+While the math we are doing here is ultimately pretty simple, as far as physics goes,it nonetheless shows how one can easily do at least certain physics equations with only a little bit of code. Hope you enjoyed it, and don't use it to cheat on your physics homework haha. 
 
 <br>
