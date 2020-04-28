@@ -4,7 +4,7 @@ title: About Dana
 
 *"I was born not knowing and have had only a little time to change that here and there."* -Richard Feynman
 
-Hello and welcome to my website! My name is Dana Lockwood, and I am a programmer and avid technology enthusiast. My primary interest is in database development and managment. I have a background in multiple different languages and technologies, such as SQL, Python, C#/.NET Core, and [more](/skills).
+Hello and welcome to my website! My name is Dana Lockwood, and I am a programmer and avid technology enthusiast. While I primarily specialize in implementing a variety of elegant solutions using Python 3 and PostgreSQL, I also have a background in multiple different languages and technologies, such as C#/.NET Core, HTML, CSS, and [more](/skills).
 
 The GitHub repo for this website can be found [here](https://github.com/D-Bits/Danabases-Blog). 
 
