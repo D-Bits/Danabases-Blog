@@ -39,7 +39,6 @@ The function I wrote to perform this task consisted of the following key steps:
 5. Commit the transaction to the database, and close the connection.
 6. Delete the temporary CSV file, as it is no longer needed.
 
-
 <br>
 
 If you are familiar with Pandas DataFrames, you might be wondering "why dump 
@@ -62,8 +61,6 @@ my data in.
 Here is the exact implementation I used:
 
 ```python
-
-@staticmethod 
 def aws_pg_migration(src_table, target_table):
 
     try:
