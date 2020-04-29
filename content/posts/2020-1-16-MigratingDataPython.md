@@ -100,8 +100,6 @@ def aws_pg_migration(src_table, target_table):
         input('Error: Table does not exist in database! Press enter to exit.')
 ```
 
-<br>
-
 ## Conclusions
 
 This particular methodology has worked well enough that I am now considering 
