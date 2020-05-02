@@ -107,7 +107,7 @@ pre,
 .site.header,
 .article.markdown-body h1,
 .article.markdown-body h2 {
-  border-bottom-color: rgba(220, 252, 242, .05);
+  border-bottom-color: #ffffff;
 }
 
 .article.markdown-body blockquote {
