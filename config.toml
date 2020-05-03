@@ -26,3 +26,8 @@ url = "/skills"
 [[params.nav.custom]]
 title = "Projects"
 url = "/projects"
+
+# Nav for contact page
+[[params.nav.custom]]
+title = "Contact"
+url = "/contact"
