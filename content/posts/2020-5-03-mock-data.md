@@ -53,7 +53,7 @@ Each time we call `fake.<attribute()>`, it creates a random piece of data for th
 
 ## Final Thoughts
 
-With this new tool in my toolbox, I will be able to generate arbitrarily large data sets for testing programs going forward. While I would ideally prefer something a little faster (*the above function took about 6.5 minutes to generate 500,000 records worth of data on my home machine*), it still has performed at least reasonably well so far. For more information about Faker, check out their [documentation](https://faker.readthedocs.io/en/master/index.html).
+With this new tool in my toolbox, I will be able to generate arbitrarily large data sets for testing programs going forward. While I would ideally prefer something a little faster (*the above function took about 6.5 minutes to generate 500,000 records worth of data on my home machine*), it still has performed at least reasonably well so far. For more information about Faker, check out their [documentation](https://faker.readthedocs.io/en/master/index.html). Thank you for reading.
 
 
 Sincerely,
