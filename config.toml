@@ -10,6 +10,10 @@ copyright = "©2020 Dana Lockwood."
 showCategories = false       # /categories/
 showTags = true             # /tags/
 
+# Configure syntax highlighting for code blocks
+[markup.highlight]
+style = "native"
+
 # custom navigation items
 
 # Nav for about page
@@ -26,3 +30,8 @@ url = "/skills"
 [[params.nav.custom]]
 title = "Projects"
 url = "/projects"
+
+# Nav for contact page
+#[[params.nav.custom]]
+# title = "Contact"
+# url = "/contact"
