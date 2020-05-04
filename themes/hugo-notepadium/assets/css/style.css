@@ -788,7 +788,7 @@ b {
   border-right: 1px dashed #e6e6e6;
 }
 
-/*Custom contact form styles*/
+
 .container {
     text-align: center;
 }
@@ -798,6 +798,7 @@ b {
   height: 375%;
 }
 
+/*Custom contact form styles*/
 .contact-form {
   display: flex;
   color: #fff;
