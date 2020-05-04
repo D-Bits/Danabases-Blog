@@ -2,7 +2,7 @@
 title: Contact Dana
 ---
 
-### Links 
+### Elsewhere on the Web 
 
 - [LinkedIn](https://linkedin.com/in/danabases)
 - [GitHub](https://github.com/d-bits)
