@@ -788,14 +788,13 @@ b {
   border-right: 1px dashed #e6e6e6;
 }
 
-
 .container {
     text-align: center;
 }
 
 #message {
-  width: 75%;
-  height: 375%;
+  width: 80%;
+  height: 75%;
 }
 
 /*Custom contact form styles*/
@@ -818,4 +817,11 @@ b {
   margin: 10px;
   height: 30px;
   width: 50%;
+}
+
+/*Footer links*/
+.links {
+  display: inline;
+  font-size: medium;
+  padding-right: 2.5%;
 }
