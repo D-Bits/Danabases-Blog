@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Understanding Object Relational Databases
-publishdate: 2020-05-09
+publishdate: 2020-06-02T00:00:00.000Z
 updated: April 26th, 2020
 draft: true
-tags: ["sql"] 
+tags:
+  - sql
 ---
 
 If you a developer, you may have come across the the term *object relational* in the context of database management systems (DBMS). In the most simple sense, it is a DBMS that combines the principles of relational databases with at least some of the principles of object-oriented programming.
