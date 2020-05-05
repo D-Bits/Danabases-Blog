@@ -24,7 +24,7 @@ My main challenge by far, was simply trying to get data stored in my containeriz
 
 ## Going Forward
 
-Now that I can easily setup containerize databases, and persist the data their holding, I can easily setup entire development environments without spending a bunch of time manually installing and configuring a buch of dependencies. As a result, I plan on moving fully ahead with plans to stockpile various pre-configured Dockerfiles and `docker-compose` files for various different development environments. The repo for this project can be found [here](https://github.com/D-Bits/Docker-Configs).
+Now that I can easily setup containerize databases, and persist the data their holding, I can easily setup entire development environments without spending a bunch of time manually installing and configuring a bunch of dependencies. As a result, I plan on moving fully ahead with plans to stockpile various pre-configured Dockerfiles and `docker-compose` files for various different development environments. The repo for this project can be found [here](https://github.com/D-Bits/Docker-Configs).
 
 ## Summary
 
