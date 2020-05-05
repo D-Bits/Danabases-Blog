@@ -1,20 +1,20 @@
 backend:
-    name: git-gateway
-    branch: master # Branch to update (optional; defaults to master)
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
 
-# This line should *not* be indented
-publish_mode: editorial_workflow
-
-# These lines should *not* be indented
-media_folder: "static/pics/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: static/pics
+public_folder: /img
 
 collections:
-    - name: "posts"
-      label: "Post"
-      folder: "./content/posts/"
-      filter:
-        field: language
-        value: en
-      fields:
-        - {label: "Language", name: "language"}
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
