@@ -19,3 +19,6 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'select', multiple: true,  options: ["python", "sql", "automation", "docker"]}
       - { label: 'Draft', name: 'draft', widget: 'boolean' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+# Enable saving drafts
+publish_mode: editorial_workflow
