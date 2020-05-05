@@ -1,5 +1,6 @@
 {{- define "main" -}}
 {{- partial "homepage-body.html" . -}}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {{- $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) -}}
 
 {{- partial "note-list.html" $paginator -}}
