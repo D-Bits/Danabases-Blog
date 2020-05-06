@@ -829,3 +829,8 @@ b {
   font-size: medium;
   padding-right: 2.5%;
 }
+
+/*For profile pic on About page*/
+.markdown-body {
+  text-align: center;
+}
