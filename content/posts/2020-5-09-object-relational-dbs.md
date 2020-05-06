@@ -7,7 +7,6 @@ tags:
   - sql
 draft: true
 ---
-
 If you a developer, you may have come across the the term *object relational* in the context of database management systems (DBMS). In the most simple sense, it is a DBMS that combines the principles of relational databases with at least some of the principles of object-oriented programming.
 
 In this post, we will be reviewing why one should use object relational databases, and how they implement various principles of object oriented programming.
