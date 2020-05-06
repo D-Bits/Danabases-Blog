@@ -7,7 +7,7 @@ tags: ["other"]
 ---
 
 Welcome to my new new blog and website! This is a pilot post for my
-new blogging website, build with Jekyll and GitHub pages. My posts will 
+new blogging website, build with Hugo and Netlify. My posts will 
 primarily revolve around technology, science, society, and the connections
 between them.
 
