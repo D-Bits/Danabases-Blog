@@ -16,7 +16,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'publishdate', widget: 'datetime' }
-      - { label: 'Tags', name: 'tags', widget: 'select', multiple: true,  options: ["python", "sql", "automation", "docker"]}
+      - { label: 'Tags', name: 'tags', widget: 'select', multiple: true,  options: ["python", "sql", "automation", "docker", "other"]}
       - { label: 'Draft', name: 'draft', widget: 'boolean' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
