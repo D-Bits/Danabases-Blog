@@ -13,7 +13,7 @@ In the previous iteration, this blog was built on Jekyll, and hosted on GitHub P
 
 ## Choosing a Static Site Generator
 
-With this in mind, I set out on finding a new static site generator. 
+With this in mind, I set out on finding a new static site generator. The two main alternatives to Jekyll that I looked at were Pelican and Hugo. While Pelican certainly appealed to me, being a Pythonista and all, I ultimately decided to opt for Hugo. 
 
 ## Building the Website
 
