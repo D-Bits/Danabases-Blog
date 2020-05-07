@@ -9,7 +9,9 @@ For those of who have been following this blog for a while now, you will have no
 
 ## Why?
 
-## Choosing a Static Site Generating
+In the previous iteration, this blog was built on Jekyll, and hosted on GitHub Pages, without a custom domain. While that setup worked out well enough 
+
+## Choosing a Static Site Generator
 
 ## Building the Website
 
