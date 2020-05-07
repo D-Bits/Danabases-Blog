@@ -13,6 +13,8 @@ In the previous iteration, this blog was built on Jekyll, and hosted on GitHub P
 
 ## Choosing a Static Site Generator
 
+With this in mind, I set out on finding a new static site generator. 
+
 ## Building the Website
 
 ## Hosting
