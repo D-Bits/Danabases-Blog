@@ -17,7 +17,7 @@ With this in mind, I set out on finding a new static site generator. The two mai
 
 ## Building the Website
 
-With a choice of a new static site generator made, I 
+With a choice of a new static site generator made, I set out to redevelop my website. 
 
 ## Hosting
 
