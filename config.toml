@@ -6,6 +6,10 @@ paginate = 4
 theme = "hugo-notepadium"
 copyright = "©2020 Dana Lockwood."
 
+[params]
+style = "dark"
+
+
 [params.nav]
 showCategories = false       # /categories/
 showTags = true             # /tags/
