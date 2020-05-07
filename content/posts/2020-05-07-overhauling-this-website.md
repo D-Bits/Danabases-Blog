@@ -17,6 +17,10 @@ With this in mind, I set out on finding a new static site generator.
 
 ## Building the Website
 
+With a choice of a new static site generator made, I 
+
 ## Hosting
+
+Since GitHub Pages is powered by Jekyll, which I am no longer using, I found myself in need of a new hosting service.
 
 ## Final Thoughts
