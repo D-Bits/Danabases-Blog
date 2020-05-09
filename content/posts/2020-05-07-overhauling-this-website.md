@@ -9,19 +9,19 @@ For those of who have been following this blog for a while now, you will have no
 
 ## Why?
 
-In the previous iteration, this blog was built on Jekyll, and hosted on GitHub Pages, without a custom domain. While that setup worked out well enough for starting out, I found myself in the market for a different static site generator, and consequently, a new service to host my website. While Jekyll served my needs well enough for the short term, I increasingly found that my lack of Ruby knowledge was making things difficult for me. Furthermore, as this was the only Ruby project I have ever worked on, I didn't really have much incentive to immerse myself in the language. 
+In the previous iteration, this blog was built on Jekyll, and hosted on GitHub Pages, without a custom domain. While that setup worked out well enough for starting out, I found myself in the market for a different static site generator, and consequently, a new service to host my website. While Jekyll served my needs well enough for the short term, I increasingly found that my lack of Ruby knowledge was making things difficult for me. Furthermore, as this was the only Ruby project I have ever worked on, I didn't really have much incentive to immerse myself in the language. Also, there were certain features that Jekyll required third party packages to implement
 
 ## Choosing a Static Site Generator
 
-With this in mind, I set out on finding a new static site generator. The two main alternatives to Jekyll that I looked at were Pelican and Hugo. While Pelican certainly appealed to me, being a Pythonista and all, I ultimately decided to opt for Hugo, due to the fact that didn't require any setup or configuration (other than downloading and installing a binary), it's extensive selection of themes, as well as its incredibly fast, and auto-reloading, development server.  
+With this in mind, I set out on finding a new static site generator. The two main alternatives to Jekyll that I looked at were Pelican and Hugo. While Pelican certainly appealed to me, being a Pythonista and all, I ultimately decided to opt for Hugo, due to the fact that didn't require any setup or configuration (other than downloading and installing a binary), it's extensive selection of themes, as well as its incredibly fast, and auto-reloading, development server.  In addition to that, even though Hugo is written in Go, it is not a package for the language that requires Go to already be installed. Instead, to install Hugo, one simply either downloads an installer from the Hugo website, or installs it through a package manager. I opted for the later of the two.
 
 ## Building the Website
 
-With a choice of a new static site generator made, I set out to redevelop my website. Ultimately, I do not consider myself a front-end web developer, or any kind of expert on CSS. Therefore, rather than code the entire website from scratch, I made to choose to use one of Hugo's pre-built themes from their [gallery](https://themes.gohugo.io/tags/gallery/). Eventually, I settled on a rather nice theme called [Notepadium](https://themes.gohugo.io/hugo-notepadium/).
+With a choice of a new static site generator made, I set out to redevelop my website. Ultimately, I do not consider myself a front-end web developer, or any kind of expert on CSS. Therefore, rather than code the entire website from scratch, I made to choose to use one of Hugo's pre-built themes from their [gallery](https://themes.gohugo.io/tags/gallery/). Eventually, I settled on a rather nice theme called [Notepadium](https://themes.gohugo.io/hugo-notepadium/). Also, even though Hugo is written in Go, it is not a package for the language that requires Go to already be installed. Instead, to install Hugo, one simply either downloads an installer from the Hugo website, or installs it through a package manager. I opted for the later of the two.
 
 ## Hosting
 
-Since GitHub Pages is powered by Jekyll, which I am no longer using, I found myself in need of a new hosting service. For static website, I found the most ideal option to be Netlify. Netlify not only allows you to host static sites for free, but also allows you to easily add a lot of functionality to them, that would normally be associated with web applications. 
+Since GitHub Pages is powered by Jekyll, which I am no longer using, I found myself in need of a new hosting service. For static website, I found the most ideal option to be Netlify. Netlify not only allows you to host static sites for free, but also allows you to easily add a lot of functionality to them, that would normally be associated with web applications that have server-side code. 
 
 ## Final Thoughts
 
