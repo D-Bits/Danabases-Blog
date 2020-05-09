@@ -17,7 +17,9 @@ With this in mind, I set out on finding a new static site generator. The two mai
 
 ## Building the Website
 
-With a choice of a new static site generator made, I set out to redevelop my website. Ultimately, I do not consider myself a front-end web developer, or any kind of expert on CSS. Therefore, rather than code the entire website from scratch, I made to choose to use one of Hugo's pre-built themes from their [gallery](https://themes.gohugo.io/tags/gallery/). Eventually, I settled on a rather nice theme called [Notepadium](https://themes.gohugo.io/hugo-notepadium/). To use this theme, you.....
+With a choice of a new static site generator made, I set out to start redeveloping my website. Ultimately, I do not consider myself a front-end web developer, or any kind of expert on CSS. Therefore, rather than code the entire website from scratch, I made to choose to use one of Hugo's pre-built themes from their [gallery](https://themes.gohugo.io/tags/gallery/). Eventually, I settled on a rather nice theme called [Notepadium](https://themes.gohugo.io/hugo-notepadium/). To use this theme, you.....
+
+I should note that even though I used a pre-built theme for this site, I did at least of some of my own, custom styles to it.
 
 ## Hosting
 
