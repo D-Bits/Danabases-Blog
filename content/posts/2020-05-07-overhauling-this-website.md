@@ -1,6 +1,6 @@
 ---
 title: Overhauling This Website
-publishdate: 2020-05-11T00:16:11.299Z
+publishdate: 2020-05-18T00:16:11.299Z
 tags:
   - other
 draft: true
@@ -9,11 +9,11 @@ For those of who have been following this blog for a while now, you will have no
 
 ## Why?
 
-In the previous iteration, this blog was built on Jekyll, and hosted on GitHub Pages, without a custom domain. While that setup worked out well enough for starting out, I found myself in the market for a different static site generator, and consequently, a new service to host my website. While Jekyll served my needs well enough for the short term, I increasingly found that my lack of Ruby knowledge was making things difficult for me. Furthermore, as this was the only Ruby project I have ever worked on, I didn't really have much incentive to immerse myself in the language. Also, there were certain features that Jekyll required third party packages to implement
+In the previous iteration, this blog was built on Jekyll, and hosted on GitHub Pages, without a custom domain. While that setup worked out well enough for starting out, I found myself in the market for a different static site generator, and consequently, a new service to host my website. While Jekyll served my needs well enough for the short term, I increasingly found that my lack of Ruby knowledge was making things difficult for me. Furthermore, as this was the only Ruby project I have ever worked on, I didn't really have much incentive to immerse myself in the language. Also, there were certain features that Jekyll required third party packages and extra configuration to implement, such as pagination, which I felt should have been included by default.
 
 ## Choosing a Static Site Generator
 
-With this in mind, I set out on finding a new static site generator. The two main alternatives to Jekyll that I looked at were Pelican and Hugo. While Pelican certainly appealed to me, being a Pythonista and all, I ultimately decided to opt for Hugo, due to the fact that didn't require any setup or configuration (other than downloading and installing a binary), it's extensive selection of themes, as well as its incredibly fast, and auto-reloading, development server.  In addition to that, even though Hugo is written in Go, it is not a package for the language that requires Go to already be installed. Instead, to install Hugo, one simply either downloads an installer from the Hugo website, or installs it through a package manager. I opted for the later of the two.
+With this in mind, I set out on finding a new static site generator. The two main alternatives to Jekyll that I looked at were Pelican and Hugo. While Pelican certainly appealed to me, being a Pythonista and all, I ultimately decided to opt for Hugo, due to the fact that didn't require any setup or configuration (other than downloading and installing a binary), it's extensive selection of themes, as well as its incredibly fast, and auto-reloading, development server.  In addition to that, even though Hugo is written in Go, it is not a package for the language that requires Go to already be installed. Instead, to install Hugo, one simply either downloads an installer from the Hugo website, or installs it through a package manager. I opted for the later of the two. 
 
 ## Building the Website
 
