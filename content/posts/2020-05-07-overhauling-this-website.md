@@ -19,7 +19,11 @@ With this in mind, I set out on finding a new static site generator. The two mai
 
 With a choice of a new static site generator made, I set out to start redeveloping my website. Once Hugo is installed, creating a new Hugo website is a simple as using Hugo's handy SDK by running `hugo new site <site_name>`.  
 
-Ultimately, I do not consider myself a front-end web developer, or any kind of expert on CSS. Therefore, rather than code the entire website from scratch, I made to choose to use one of Hugo's pre-built themes from their [gallery](https://themes.gohugo.io/tags/gallery/). Eventually, I settled on a rather nice theme called [Notepadium](https://themes.gohugo.io/hugo-notepadium/). To use this theme, you you would clone
+![file-structure](/img/hugo-file-structure.jpg)
+
+*The project structure scaffolded by Hugo*
+
+Ultimately, I do not consider myself a front-end web developer, or any kind of expert on CSS. Therefore, rather than code the entire website from scratch, I made to choose to use one of Hugo's pre-built themes from their [gallery](https://themes.gohugo.io/tags/gallery/). Eventually, I settled on a rather nice theme called [Notepadium](https://themes.gohugo.io/hugo-notepadium/). To apply this theme, you would first clone the theme's git repo into your project's `theme` directory. Then, open your `config.toml` file
 
 I should note that even though I used a pre-built theme for this site, I did at least of some of my own, custom styles to it.
 
@@ -29,4 +33,4 @@ Since GitHub Pages is powered by Jekyll, which I am no longer using, I found mys
 
 ## Final Thoughts
 
-Currently, I am quite satisfied with the new setup. Although I still have a lot to learn about Hugo, and everything I can do with it, I found it pretty easy to get started with. Furthermore, while the theme I choose was pretty nice
+Currently, I am quite satisfied with the new setup. Although I still have a lot to learn about Hugo, and everything I can do with it, I found it pretty easy to get started with. Furthermore, while the theme I choose was pretty nice as well. I am also highly satisfied with Netlify thus far, as it really does enable one to push the boundaries of what can be accomplished with a simple, static website.
