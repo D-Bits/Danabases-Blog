@@ -25,7 +25,14 @@ With a choice of a new static site generator made, I set out to start redevelopi
 
 Ultimately, I do not consider myself a front-end web developer, or any kind of expert on CSS. Therefore, rather than code the entire website from scratch, I made to choose to use one of Hugo's pre-built themes from their [gallery](https://themes.gohugo.io/tags/gallery/). Eventually, I settled on a rather nice theme called [Notepadium](https://themes.gohugo.io/hugo-notepadium/). To apply this theme, you would first clone the theme's git repo into your project's `theme` directory. Then, open your `config.toml` file.
 
+In that file, you would then modify the `theme` variable to be equal to "":
 
+```
+theme = ""
+
+[params]
+style = "dark"
+```
 
 ## Hosting
 
