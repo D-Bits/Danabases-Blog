@@ -17,7 +17,7 @@ With this in mind, I set out on finding a new static site generator. The two mai
 
 ## Building the Website
 
-With a choice of a new static site generator made, I set out to redevelop my website. Ultimately, I do not consider myself a front-end web developer, or any kind of expert on CSS. Therefore, rather than code the entire website from scratch, I made to choose to use one of Hugo's pre-built themes from their [gallery](https://themes.gohugo.io/tags/gallery/). Eventually, I settled on a rather nice theme called [Notepadium](https://themes.gohugo.io/hugo-notepadium/). Also, even though Hugo is written in Go, it is not a package for the language that requires Go to already be installed. Instead, to install Hugo, one simply either downloads an installer from the Hugo website, or installs it through a package manager. I opted for the later of the two.
+With a choice of a new static site generator made, I set out to redevelop my website. Ultimately, I do not consider myself a front-end web developer, or any kind of expert on CSS. Therefore, rather than code the entire website from scratch, I made to choose to use one of Hugo's pre-built themes from their [gallery](https://themes.gohugo.io/tags/gallery/). Eventually, I settled on a rather nice theme called [Notepadium](https://themes.gohugo.io/hugo-notepadium/). To use this theme, you.....
 
 ## Hosting
 
