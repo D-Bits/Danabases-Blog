@@ -25,12 +25,12 @@ With a choice of a new static site generator made, I set out to start redevelopi
 
 Ultimately, I do not consider myself a front-end web developer, or any kind of expert on CSS. Therefore, rather than code the entire website from scratch, I made to choose to use one of Hugo's pre-built themes from their [gallery](https://themes.gohugo.io/tags/gallery/). Eventually, I settled on a rather nice theme called [Notepadium](https://themes.gohugo.io/hugo-notepadium/). To apply this theme, you would first clone the theme's git repo into your project's `theme` directory. Then, open your `config.toml` file.
 
-I should note that even though I used a pre-built theme for this site, I did at least of some of my own, custom styles to it.
+
 
 ## Hosting
 
-Since GitHub Pages is powered by Jekyll, which I am no longer using, I found myself in need of a new hosting service. For static website, I found the most ideal option to be Netlify. Netlify not only allows you to host static sites for free, but also allows you to easily add a lot of functionality to them, that would normally be associated with web applications that have server-side code. 
+Since GitHub Pages is powered by Jekyll, which I am no longer using, I found myself in need of a new hosting service. For static website, I found the most ideal option to be Netlify. Netlify not only allows you to host static sites for free, but also allows you to easily add a lot of functionality to them, that would normally be associated with web applications that have server-side code. Netlify also makes it very easy to automate deployments by connecting a git repository to 
 
 ## Final Thoughts
 
-Currently, I am quite satisfied with the new setup. Although I still have a lot to learn about Hugo, and everything I can do with it, I found it pretty easy to get started with. Furthermore, while the theme I choose was pretty nice as well. I am also highly satisfied with Netlify thus far, as it really does enable one to push the boundaries of what can be accomplished with a simple, static website.
+Currently, I am quite satisfied with the new setup. Although I still have a lot to learn about Hugo, and everything I can do with it, I found it pretty easy to get started with. Furthermore, while the theme I choose was pretty nice as well, I should note that even though I used a pre-built theme for this site, I did at least of some of my own, custom styles to it.. I am also highly satisfied with Netlify thus far, as it really does enable one to push the boundaries of what can be accomplished with a simple, static website.
