@@ -17,7 +17,7 @@ With this in mind, I set out on finding a new static site generator. The two mai
 
 ## Building the Website
 
-With a choice of a new static site generator made, I set out to start redeveloping my website. Once Hugo is installed, creating a new Hugo website is a simple as using Hugo's handy SDK by running `hugo new site <site_name>`.  
+With a choice of a new static site generator made, I set out to start redeveloping my website. I won't detail every aspect of  Once Hugo is installed, creating a new Hugo website is a simple as using Hugo's handy SDK by running `hugo new site <site_name>`.  
 
 ![file-structure](/img/hugo-file-structure.jpg)
 
