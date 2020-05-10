@@ -33,4 +33,4 @@ Since GitHub Pages is powered by Jekyll, which I am no longer using, I found mys
 
 ## Final Thoughts
 
-Currently, I am quite satisfied with the new setup. Although I still have a lot to learn about Hugo, and everything I can do with it, I found it pretty easy to get started with. Furthermore, while the theme I choose was pretty nice as well, I should note that even though I used a pre-built theme for this site, I did at least of some of my own, custom styles to it.. I am also highly satisfied with Netlify thus far, as it really does enable one to push the boundaries of what can be accomplished with a simple, static website.
+Currently, I am quite satisfied with the new setup. Although I still have a lot to learn about Hugo, and everything I can do with it, I found it pretty easy to get started with. Furthermore, while the theme I chose was pretty nice as well, I should note that even though I used a pre-built theme for this site, I did add at least of some of my own, custom styles to it. I am also highly satisfied with Netlify thus far, as it really does enable one to push the boundaries of what can be accomplished with a simple, static website.
