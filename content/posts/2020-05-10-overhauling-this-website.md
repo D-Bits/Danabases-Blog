@@ -3,7 +3,7 @@ title: Overhauling This Website
 publishdate: 2020-05-10T06:50:43.102Z
 tags:
   - other
-draft: true
+draft: false
 ---
 For those of who have been following this blog for a while now, you will have noticed I completely overhauled my website/blog to have an entirely new design, along with a new domain name, and a new hosting service. In this blog post, I would like to go over how I went about overhauling the website, as well as some of my reasons for doing so.
 
