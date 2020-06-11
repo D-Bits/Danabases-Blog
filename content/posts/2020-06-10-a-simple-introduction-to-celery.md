@@ -14,4 +14,4 @@ If you're a Python developer, you have probably at least heard of a library call
 
 ## Installation and Setup
 
-Before we install Celery, we first need to install and setup and AMPQ server. For Celery, the preferential option is RabbitMQ. 
+Before we install Celery, we first need to install and setup and AMPQ server. For Celery, the preferential option is [RabbitMQ](https://www.rabbitmq.com/). 
