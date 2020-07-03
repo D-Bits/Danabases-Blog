@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/dbits
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://danabases.net
+  * I am dbits (https://keybase.io/dbits) on keybase.
+  * I have a public key with fingerprint 1530 70D7 CDC2 7F40 2CC7  0F28 7074 CB21 C35D F7D4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101039092d394e0347f2b6a997ce083b2e132776981904b970fca6154eab7fc30960a",
+      "fingerprint": "153070d7cdc27f402cc70f287074cb21c35df7d4",
+      "host": "keybase.io",
+      "key_id": "7074cb21c35df7d4",
+      "kid": "0101039092d394e0347f2b6a997ce083b2e132776981904b970fca6154eab7fc30960a",
+      "uid": "8c7f67852263c7451ef324ea6c82fe19",
+      "username": "dbits"
+    },
+    "service": {
+      "hostname": "danabases.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1593820009,
+  "expire_in": 157680000,
+  "prev": "e54b4321ed2cabf70b082822eb93aa63733e6d594e33261350276ec7d42783cd",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMM+AnicrVJrTBRXGF0q1oWqCLbBQrAw8mogcOfO7NyZhdC0YNwaKw8JYqPgPO6s
+I7C77A6sW0uLBh9EDYtAJVILTX8UWgVMqcQiVZ5GSDVFTMWa2AQKm5pULUYJYOkM
+qf/6s7k/bu73nXPu+U6+wTUrDIF+DnU0amDP83G/0b6GMkPB0oBykBDskocwHySK
+8PKFiyXsUguLFIkwE4DUDsUBDkoUR2NA0UiGAsNzHBIxYCkBYpKCCDEcS3KAFjgE
+ZJFnSBONeQHJIgU4BvBEIiErNit2OpyKTdVkSRMFEJCQKIkQyTSAoqgRIYsAokUB
+kiJlkmQk0Rpxn92lMzRzAu/CSYpdq2mPwmV7/4H/n32XLcuxIpIZxJogZCgR0SYS
+yxTUoIzIQhmTnA50YaeNL8EaWhIU1UVUJBJaqVwRsZ6qPsbLNm/j9VlcSTasakyH
+067aRXux1tqnqg6XWaeqHoeOdWOh8F+VQkGxSVqKGqMcO12K3UaYSQ0pqoouS5o4
+ioUAAC6RwAccihMXKjrChBhWqwL9H1yuSWITLdAUJLEERV6QERAAC1kIscBRPM9Q
+iKIwI5m01CgKMiRlAhAxWNTShYilRInQ5yq12Qkzo9nkrZqkS7HaeLXMiYmK/r7d
+/ga/QMOrK1/Rt8sQGLDu5c59Kgct5axu/WWsJ/jUtroHLWpqavfMWvDndJTTz5N8
+/8b89pm02jMLUdNPzb7Jnpw5nj0cSB6h2OYTdPK1lPebLIFLX1bnZ24cdj5JWRi9
+/EPK457M+g7f896aqrqx2wwXmTrh/eu3iA1hA+2Htt88zl0J+SP4m00/jdz1FiWX
+PAiT37i3JWlVW41hbWPCJW96591jtsg1+8XW5r0rrm280x2TddW4u2XTnWPX8xdp
+ny9/b6rBE+9dX/a0abqx8V54Qv+ulPaCqICTxcahD3whn7MjkZZf759MHu45fKK2
+7sq58+9UZzs274qtfxb9djb/MMi4tfm6pyA6fVBZH8dU7v+7e6cQ1sCeLYl/Zm8r
+l4LK0A5wxLs4mPD18Y6Lk53Ts1bg/+JqrHEg6/e0ozdR6VBbn9c7Y5mw/mzxn6iJ
+K6mo+P5FduVjkC/MhZz2ZnYHhWblbn30ccujzoZ1Gd95vhj3zg8aU6asoV2Lxq7+
+hiRMDecsxEy+9tGWuIeWz1Ld0Rm3Axr5xak9kUswl6mpSrx1/lTUu+3RldVpRNtE
+Y8xQevCbrfGjtRx3cXboRkH4bETFjrGAVrrendf7IyyabM1xvzffsWHnIfdq97eh
+t1CeY3y8pe7CkCe8N1pdyr9w9Ku5t2JLD7yeUBVyNtcijXR86OyaiHhySU4IuPyJ
+73Te7Jmm7IyV26b+AabAuvk=
+=k/Dy
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dbits
+
+==================================================================
