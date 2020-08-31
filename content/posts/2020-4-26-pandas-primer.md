@@ -26,7 +26,7 @@ df = pd.read_csv('people-data.csv')
 ```
 This will load all the values from that CSV file into the `DataFrame`, and will look like this when printed to the standard output:
 
-![df](/assets/pics/df_print.jpg)
+![df](/assets/pics/posting_pics/df_print.jpg)
 
 If we needed to load our data from sources in different formats, like JSON or Excel workbooks, then we would use the following implementations:
 
