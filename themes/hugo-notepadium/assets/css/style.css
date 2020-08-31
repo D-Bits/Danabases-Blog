@@ -825,6 +825,11 @@ b {
   width: 50%;
 }
 
+/*For name field*/
+#contact {
+  color: #dbdada;
+}
+
 /*Footer links*/
 .links {
   display: inline;
@@ -838,7 +843,8 @@ b {
 }
 
 /*For skills page*/
-#skills {
-  text-align: left;
-
+.skills {
+  text-align: center;
+  list-style-type: none;
+  margin-top: 5%;
 }

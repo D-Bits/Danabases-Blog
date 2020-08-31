@@ -18,7 +18,7 @@ showTags = true             # /tags/
 [markup.highlight]
 style = "native"
 
-# custom navigation items
+# Custom navigation items
 
 # Nav for about page
 [[params.nav.custom]]
