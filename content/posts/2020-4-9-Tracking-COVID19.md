@@ -77,7 +77,7 @@ def index():
 
 We would iterate over those values in an HTML table with the following code:
 
-```jinja2
+```html
 <table>
     <thead>
         <tr>
