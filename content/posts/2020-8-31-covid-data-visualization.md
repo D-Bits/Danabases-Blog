@@ -78,13 +78,66 @@ Now that we have our server-side logic sorted out, we can move on to our client-
 
 ## Rendering the Visualizations
 
-In this project, I needed to do more than just create plots; I also needed to render them in HTML templates. To assist in this, Plotly also provides a client-side JavaScript library. 
+In this project, I needed to do more than just create plots. I also needed to render them in HTML templates. To assist in this, Plotly also provides a client-side JavaScript library. 
 
 As an example, here is what a plot for the total case history of Taiwan looks like:
 <br>
 ![taiwan-covid-history](/assets/pics/posting_pics/taiwan-covid-history-graph.jpg)
 <br>
 *Now, that's flattening the curve.*
+
+And here is what the code for the relevant Jinja2 template looks like to render four different charts: 
+
+```html
+{% extends "layout.html" %}
+
+{% block title %}{{nation}} Case History Graph {% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <h1 class="country_name">{{nation}} Data Visualizations</h1>
+</div>
+    
+<br>
+
+<h2>Cases History Chart</h2>
+
+<div class="chart" id="cases">
+
+<script>
+  var graphs = {{ cases | safe }};
+  Plotly.plot('cases', graphs, {});
+</script>
+
+</div>
+
+<h2>Deaths History Chart</h2>
+
+<div class="chart" id="deaths">
+
+  <script>
+    var graphs = {{ deaths | safe }};
+    Plotly.plot('deaths', graphs, {});
+  </script>
+
+</div>
+
+<h2>Recoveries History Chart</h2>
+
+<div class="chart" id="recoveries">
+
+  <script>
+    var graphs = {{ recoveries | safe }};
+    Plotly.plot('recoveries', graphs, {});
+  </script>
+
+</div>
+
+<br>
+
+{% endblock %}
+```
 
 ## Final Thoughts
 
