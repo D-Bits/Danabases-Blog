@@ -1,6 +1,6 @@
 ---
 title: Visualizing COVID-19 Data
-publishdate: 2020-08-31
+publishdate: 2020-09-03
 tags:
   - python
 draft: false
