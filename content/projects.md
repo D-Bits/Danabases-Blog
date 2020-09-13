@@ -10,10 +10,10 @@ Here is a collection of some of the projects that I have worked on. A more compl
 
 *A web client used to track, and provide country level data for the COVID-19 pandemic. Built primarily with Flask and Pandas.*
 
-## [System Central](https://github.com/D-Bits/System-Central)
-![system-central](/assets/pics/system-central.jpg)
+## [Dev Roast](https://github.com/D-Bits/devroastproject)
+![system-central](/assets/pics/devroast.jpg)
 
-*A CLI tool for executing various system tasks, written in Python. A C# implementation can be found [here](https://github.com/D-Bits/SysCentral).*
+*An ongoing collaboration with members of the Puget Sound Python Programming (PuPPy) community to create web service where developers can upload links to websites they have published, and get feedback. Built with Python3, PostgreSQL, Docker, and React.*
 
 ## [Chapman](https://github.com/D-Bits/Chapman)
 ![chapman](/assets/pics/chapman.jpg)
