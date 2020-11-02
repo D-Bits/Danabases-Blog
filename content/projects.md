@@ -15,6 +15,11 @@ Here is a collection of some of the projects that I have worked on. A more compl
 
 *An ongoing collaboration with members of the Puget Sound Python Programming (PuPPy) community to create web service where developers can upload links to websites they have published, and get feedback. Built with Python3, PostgreSQL, Docker, and React.*
 
+## [Exchange Rates Pipelines](https://github.com/D-Bits/Exchange-Rates-Pipeline)
+![exchange-rates](/assets/pics/airflow-exchange-rates.jpg)
+
+*ETL pipelines to update a database of global exchange rates. Built with Apache Airflow and Pandas*
+
 ## [COVID Pipelines](https://github.com/D-Bits/COVID-Data-Engineering)
 ![system-central](/assets/pics/airflow-covid.jpg)
 
