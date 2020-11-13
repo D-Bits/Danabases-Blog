@@ -4,6 +4,7 @@ publishdate: 2020-11-08
 tags:
   - python
   - docker
+  - automation
 draft: false
 ---
 
