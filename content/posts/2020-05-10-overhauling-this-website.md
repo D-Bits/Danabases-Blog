@@ -29,7 +29,7 @@ In the top of that file, you would then modify the `theme` variable to be equal 
 
 ## Hosting
 
-Since GitHub Pages is powered by Jekyll, which I am no longer using, I found myself in need of a new hosting service. For static websites, I found the most ideal option to be Netlify. Netlify not only allows you to host static sites for free, but also allows you to easily add a lot of functionality to them, that would normally be associated with web applications that have server-side code. Netlify also makes it very easy to automate deployments by connecting a git repository to your Netlify project, so that an commits that are pushed to a specific branch of your remote repository are automatically deployed to Netlify.
+Since GitHub Pages is powered by Jekyll, which I am no longer using, I found myself in need of a new hosting service. For static websites, I found the most ideal option to be Netlify. Netlify not only allows you to host static sites for free, but also allows you to easily add a lot of functionality to them, that would normally be associated with web applications that have server-side code. Netlify also makes it very easy to automate deployments by connecting a git repository to your Netlify project, so that any commits that are pushed to a specific branch of your remote repository are automatically deployed to Netlify.
 
 ## Final Thoughts
 
