@@ -42,7 +42,7 @@ POSTGRES_DB=airflow
 LOAD_EX=n
 EXECUTOR=Local
 SQL_ALCHEMY_CONN=(SQL Alchemy connection string)
-AIRFLOW__CORE__FERNET_KEY=(a pseudo-radom string generated for database encryption)
+AIRFLOW__CORE__FERNET_KEY=(a pseudo-random string generated for database encryption)
 ```
 
 For this article, we will just be concerning ourselves with the `dags` directory, as that is where we will be storing the logic for our pipelines. 
