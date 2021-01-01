@@ -8,7 +8,7 @@ Here is a collection of some of the projects that I have worked on. A more compl
 ## [COVID-19 Reports](https://covid19-reporting.herokuapp.com/)
 ![covid19-tracker](/assets/pics/covid19-tracker.jpg)
 
-*A web client used to track, and provide country level data for the COVID-19 pandemic. Built primarily with Flask and Pandas.*
+*A web client used to track, and provide global and U.S. data for the COVID-19 pandemic. Built primarily with Flask and Pandas.*
 
 ## [Dev Roast](https://github.com/D-Bits/devroastproject)
 ![system-central](/assets/pics/devroast.jpg)
@@ -31,6 +31,6 @@ Here is a collection of some of the projects that I have worked on. A more compl
 *An interactive, CLI program for performing ETL operations with a variety of sources. Built with Python, and named in honor of Graham Chapman.*
 
 ## [This Website](https://github.com/D-Bits/Danabases-Blog)
-![danabases](/assets/pics/danabases.jpg)
+![danabases](/assets/pics/danabases2.jpg)
 
 *Built with [Hugo](https://gohugo.io/). Deployed to, and hosted with, Netlify.*

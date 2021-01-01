@@ -3,8 +3,8 @@ languageCode = "en-us"
 title = "Danabases"
 paginate = 4
 
-theme = "hugo-notepadium"
-copyright = "©2020 Dana Lockwood."
+theme = "hello-friend"
+copyright = "Dana Lockwood"
 
 [params]
 style = "dark"
@@ -20,22 +20,54 @@ style = "native"
 
 # Custom navigation items
 
-# Nav for about page
-[[params.nav.custom]]
-title = "About"
-url = "/about"
+  # Show table of contents at the top of your posts (defaults to false)
+  # Alternatively, add this param to post front matter for specific posts
+  # toc = true
 
-# Nav for skills page
-[[params.nav.custom]]
-title = "Skills"
-url = "/skills"
+  # Show full page content in RSS feed items
+  #(default is Description or Summary metadata in the front matter)
+  # rssFullText = true
 
-# Nav for projects page
-[[params.nav.custom]]
-title = "Projects"
-url = "/projects"
+[languages]
+  [languages.en]
+    title = "Danabases"
+    subtitle = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
 
-# Nav for contact page
-[[params.nav.custom]]
-title = "Contact"
-url = "/contact"
+    [languages.en.params.logo]
+      logoText = "danabases"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "skills"
+        name = "Skills"
+        url = "/skills"
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
