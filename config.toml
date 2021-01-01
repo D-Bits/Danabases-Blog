@@ -1,24 +1,21 @@
-baseURL = "https://danabases.net/"
+baseurl = "/"
 languageCode = "en-us"
-title = "Danabases"
-paginate = 4
-
 theme = "hello-friend"
-copyright = "Dana Lockwood"
+paginate = 5
 
 [params]
-style = "dark"
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
 
+  # "light" or "dark"
+  defaultTheme = "dark"
 
-[params.nav]
-showCategories = false       # /categories/
-showTags = true             # /tags/
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
 
-# Configure syntax highlighting for code blocks
-[markup.highlight]
-style = "native"
-
-# Custom navigation items
+  # Show reading time in minutes for posts
+  showReadingTime = false
 
   # Show table of contents at the top of your posts (defaults to false)
   # Alternatively, add this param to post front matter for specific posts
@@ -30,8 +27,8 @@ style = "native"
 
 [languages]
   [languages.en]
-    title = "Danabases"
-    subtitle = ""
+    title = "Hello Friend"
+    subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -47,7 +44,7 @@ style = "native"
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "danabases"
+      logoText = "hello friend"
       logoHomeLink = "/"
     # or
     #
@@ -71,3 +68,7 @@ style = "native"
         identifier = "contact"
         name = "Contact"
         url = "/contact"
+
+[module]
+  [[module.imports]]
+    path = "github.com/D-Bits/Danabases-Blog"
